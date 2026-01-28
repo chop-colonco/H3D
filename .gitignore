@@ -1,0 +1,9 @@
+build/
+libtorch/
+output/
+plots/
+*.csv
+*.png
+*.pdf
+__pycache__/
+.venv/
