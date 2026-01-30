@@ -118,9 +118,9 @@ int main() {
         for (int n = 0; n < Nsample; ++n) {
             
             // Decide which step function to use
-            //for (int m = 0; m < Nsubsweep; ++m) HM_local.step(lattice, temp); // Regular step function
+            for (int m = 0; m < Nsubsweep; ++m) HM_local.step(lattice, temp); // Regular step function
             //for (int m = 0; m < Nsubsweep; ++m) HM_local.step_ml(lattice, temp, model); // ML step function with sigle spin flip prediction
-            sweep_batched(HM_local, lattice, temp, model, Nsubsweep, batchsize); // ML step funciton with batch of spins flip prediction
+            //sweep_batched(HM_local, lattice, temp, model, Nsubsweep, batchsize); // ML step funciton with batch of spins flip prediction
             
             // Calculate Energy and Magentization
             double E = HM.total_energy(lattice) / (L * L * L);
@@ -172,3 +172,4 @@ int main() {
 
     return 0;
 }
+
