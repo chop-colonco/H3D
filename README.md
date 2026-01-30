@@ -21,22 +21,6 @@ The project focuses on numerical accuracy, parallel performance, and extensibili
 
 ---
 
-## 📁 Project Structure
-
-```text
-.
-├── CMakeLists.txt          # Build configuration
-├── Metropolis.h / .cpp     # Heisenberg Metropolis class
-├── helpers.h / .cpp        # Vector algebra & utilities
-├── main_parallel.cpp       # Parallel Monte Carlo simulation
-├── collect_data.cpp        # (Optional) data collection utilities
-├── train_model_v2.py       # Train ML spin-flip model (PyTorch)
-├── spinflip_model_v2.pt    # Trained TorchScript model
-├── Plotting_Data.ipynb     # Analysis & visualization notebook
-├── README.md               # Project documentation
-└── .gitignore
-
-
 ## 🧭 How to Use This Repository (Complete File Guide)
 
 This section explains **what every file does**, **when you should use it**, and **how the full workflow fits together** — from simulation, to ML training, to plotting.
