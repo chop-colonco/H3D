@@ -112,6 +112,5 @@ This section explains **what every file does**, **when you should use it**, and 
   - Cᵥ specific heat
 - Writes results to a CSV file
 
-**How to use**
 
 
