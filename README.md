@@ -113,6 +113,5 @@ This section explains **what every file does**, **when you should use it**, and 
 - Writes results to a CSV file
 
 **How to use**
-```bash
-./main_parallel
+
 
