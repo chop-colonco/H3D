@@ -5,7 +5,7 @@ The project focuses on numerical accuracy, parallel performance, and extensibili
 
 ---
 
-## 📌 Features
+## Features
 
 - Classical **3D Heisenberg spin model** on a cubic lattice
 - **Metropolis Monte Carlo** updates with periodic boundary conditions
@@ -21,7 +21,7 @@ The project focuses on numerical accuracy, parallel performance, and extensibili
 
 ---
 
-## 🧭 How to Use This Repository (Complete File Guide)
+## How to Use This Repository (Complete File Guide)
 
 This section explains **what every file does**, **when you should use it**, and **how the full workflow fits together** — from simulation, to ML training, to plotting.
 
@@ -95,9 +95,9 @@ This section explains **what every file does**, **when you should use it**, and 
 
 ---
 
-## 🚀 Executable Programs
+## Executable Programs
 
-### `main_parallel.cpp` ⭐ **Main Simulation Program**
+### `main_parallel.cpp` **Main Simulation Program**
 **What it does**
 - Runs the full 3D Heisenberg Monte Carlo simulation
 - Parallelizes over temperatures using **OpenMP**
